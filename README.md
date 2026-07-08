@@ -8,6 +8,7 @@ FUNCIONALIDADES:
 — Criptografia e descripitografia com chaves numéricas.
 — Suporte para frases com espaços, e tratamento maiúsculas/minúsculas.
 — Sistema de menu funcional com validação de opção válida/inválida.
+— Proteção contra estouro de memória (Integer Overflow) em chaves numéricas grandes.
 
 ----------------------------------------------------------------------------------------------------------
 
@@ -19,3 +20,4 @@ FEATURES:
 — Encryption and decryption with numerical keys.
 — Support for phrases with spaces and case-insensitive handling.
 — Functional menu system with valid/invalid option validation.
+— Protection against memory overflow (Integer Overflow) for large numerical keys.
