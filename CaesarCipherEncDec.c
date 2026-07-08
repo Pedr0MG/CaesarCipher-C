@@ -19,6 +19,8 @@ void encrypt(char alpha1[], char alpha2[]){
     scanf("%d", &shifts);
     getchar();
 
+    shifts = shifts % 26;
+
     for(int i = 0; message[i] != '\0'; i++){
 
         if (message[i] == ' ') {
@@ -51,6 +53,8 @@ void decrypt(char alpha1[], char alpha2[]){
     printf("Enter the key: ");
     scanf("%d", &shifts);
     getchar();
+
+    shifts = shifts % 26;
 
     for(int i = 0; message[i] != '\0'; i++){
 
